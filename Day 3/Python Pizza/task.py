@@ -7,7 +7,7 @@ size = str.lower(size)
 pepperoni = str.lower(pepperoni)
 extra_cheese = str.lower(extra_cheese)
 
-price = 0.0
+price = 0
 
 if size == "s":
     price += 15
@@ -22,4 +22,4 @@ if pepperoni == "y" and price >= 20:
 if extra_cheese == "y":
     price += 1
 
-print(f"Your final bill is: ${price:.2f}")
+print(f"Your final bill is: ${price}.")
