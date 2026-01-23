@@ -6,4 +6,17 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma",
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
+print(len(states_of_america))
+
 print(states_of_america)
+
+# the_dirty_dozen = ["Spinach", "Strawberries", "Kale, Collard, and Mustard Greens", "Grapes", "Peaches", "Cherries",
+#                    "Nectarines", "Pears", "Apples", "Blackberries", "Blueberries", "Potatoes"]
+
+fruits = ["Strawberries", "Grapes", "Peaches", "Cherries", "Nectarines", "Pears", "Apples", "Blackberries", "Blueberries"]
+vegetables = ("Spinach", "Kale, Collard, and Mustard Greens", "Potatoes")
+
+the_dirty_dozen = [fruits, vegetables]
+
+for i in the_dirty_dozen:
+    print(i)
